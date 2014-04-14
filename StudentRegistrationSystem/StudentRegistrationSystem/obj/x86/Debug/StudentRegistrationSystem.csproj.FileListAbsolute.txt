@@ -1,0 +1,11 @@
+G:\StudentRegistrationSystem\StudentRegistrationSystem\bin\Debug\StudentRegistrationSystem.exe
+G:\StudentRegistrationSystem\StudentRegistrationSystem\bin\Debug\StudentRegistrationSystem.pdb
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.frmStudentDetails.resources
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.frmMain.resources
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.Properties.Resources.resources
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.frmStudentRegistration.resources
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.exe
+G:\StudentRegistrationSystem\StudentRegistrationSystem\obj\x86\Debug\StudentRegistrationSystem.pdb

@@ -1,0 +1,52 @@
+Creat DB
+========================
+create database JetechDB
+
+
+Creat Table
+=====================
+use JetechDB
+create table Person(
+lastName nvarchar(250) not null,
+firstName nvarchar(150)not null,
+gender char(1) not null,
+dob dateTime not null
+)
+
+Inseart
+=====================
+use jetechDB
+insert into Person (lastName,firstName,gender,dob) Values('Gunasekara','Jeewantha','M','1986-Jun-19')
+
+
+Multiple Inserts
+=====================
+use jetechDB
+insert into Person (lastName,firstName,gender,dob) 
+       select 'Kumara','Jagath','M','1990-Dec-25' union all
+       select 'Fernando','Aruni','F','1987-May-13' union all
+       select 'Perera','Ayesha','F','1993-Mar-10' union all
+       select 'Vasikaran','Ganesh','M','1989-Aug-15' union all
+       select 'Bandara','Nadeepa','M','1985-Sep-13' union all
+       select 'Fathima','Binali','F','1982-Jan-24'
+
+
+Select
+=====================
+use jetechDB
+select * from Person
+where Gender='F' and dob>'1985-01-01'
+
+
+
+Update Recodes
+========================================
+use jetechDB
+update Person set lastName='Wasigaran'
+where lastname='Vasikaran' and firstName='Ganesh'
+
+
+
+use jetechDB
+update Person set lastName='Safa',firstName='Fathima',dob='1983-Jul-22'
+where lastname='Fathima' and firstName='Binali'

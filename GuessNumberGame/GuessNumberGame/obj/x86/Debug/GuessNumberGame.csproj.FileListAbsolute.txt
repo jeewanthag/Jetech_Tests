@@ -1,0 +1,5 @@
+G:\GuessNumberGame\GuessNumberGame\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\GuessNumberGame\GuessNumberGame\bin\Debug\GuessNumberGame.exe
+G:\GuessNumberGame\GuessNumberGame\bin\Debug\GuessNumberGame.pdb
+G:\GuessNumberGame\GuessNumberGame\obj\x86\Debug\GuessNumberGame.exe
+G:\GuessNumberGame\GuessNumberGame\obj\x86\Debug\GuessNumberGame.pdb

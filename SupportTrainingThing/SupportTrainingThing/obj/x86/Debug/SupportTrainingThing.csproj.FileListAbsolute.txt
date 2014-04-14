@@ -1,0 +1,5 @@
+G:\SupportTrainingThing\SupportTrainingThing\bin\Debug\SupportTrainingThing.exe
+G:\SupportTrainingThing\SupportTrainingThing\bin\Debug\SupportTrainingThing.pdb
+G:\SupportTrainingThing\SupportTrainingThing\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\SupportTrainingThing\SupportTrainingThing\obj\x86\Debug\SupportTrainingThing.exe
+G:\SupportTrainingThing\SupportTrainingThing\obj\x86\Debug\SupportTrainingThing.pdb

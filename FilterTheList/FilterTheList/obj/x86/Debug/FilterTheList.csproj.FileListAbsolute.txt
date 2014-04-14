@@ -1,0 +1,5 @@
+G:\FilterTheList\FilterTheList\bin\Debug\FilterTheList.exe
+G:\FilterTheList\FilterTheList\bin\Debug\FilterTheList.pdb
+G:\FilterTheList\FilterTheList\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\FilterTheList\FilterTheList\obj\x86\Debug\FilterTheList.exe
+G:\FilterTheList\FilterTheList\obj\x86\Debug\FilterTheList.pdb
