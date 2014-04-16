@@ -1,0 +1,60 @@
+SP for insert, update ad delete
+===============================================
+CREATE PROCEDURE InsertUpdateDeleteRegistration
+(
+    @id  nvarchar(6),
+    @studentName  nvarchar(500),
+    @studentGPA     DECIMAL(10,2),
+    @studentDOB     DateTime, 
+    @studentStatus nvarchar(10),
+    @StatementType nvarchar(15) 
+)
+ 
+AS
+BEGIN
+IF @StatementType = 'Insert'
+BEGIN
+insert into registration (id,studentName,studentGPA,studentDOB,studentStatus) values( @id, @studentName,  @studentGPA,  @studentDOB, @studentStatus)   
+END
+
+ 
+IF @StatementType = 'Update'
+BEGIN
+UPDATE registration SET
+            studentName =  @studentName, studentGPA = @studentGPA, studentDOB = @studentDOB,
+            studentStatus = @studentStatus
+      WHERE id = @id
+END
+ 
+IF @StatementType = 'Delete'
+BEGIN
+DELETE FROM registration WHERE id = @id
+END
+END
+
+EXECUTE InsertUpdateDeleteRegistration
+
+
+SP for Select All students details
+==================================
+
+CREAT PROCEDURE SelectAllFromRegistration
+AS
+BEGIN
+select * from registration
+END 
+
+EXECUTE callSelectAllFromRegistration
+
+
+
+
+SP for Select highest id
+==================================
+CREATE PROCEDURE SelectIdFromRegistration
+AS
+BEGIN
+select top(1) id from registration order by id desc
+END
+
+EXECUTE SelectIdFromRegistration
