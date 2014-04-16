@@ -75,7 +75,7 @@ namespace StudentRegistrationSystem
             SqlCommand cmd = new SqlCommand();
                 
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.CommandText="InsertUpdateDeleteRegistration";
+                    cmd.CommandText="SelectAllFromRegistration";
 
             SqlDataAdapter dAp = new SqlDataAdapter(cmd);
 
