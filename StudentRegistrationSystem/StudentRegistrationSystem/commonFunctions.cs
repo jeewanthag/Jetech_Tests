@@ -16,7 +16,7 @@ namespace StudentRegistrationSystem
 
         public void callInsertUpdateDeleteRegistration(string paraId,string paraName,string paraDOB,decimal paraGPA,string paraStatus,string paraType) {
             string resulquerryStatus = "";
-            SqlCommand cmd = new SqlCommand();
+            SqlCommand cmd = new SqlCommand("InsertUpdateDeleteRegistration",conn);
                 
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.CommandText="InsertUpdateDeleteRegistration";
@@ -47,7 +47,7 @@ namespace StudentRegistrationSystem
 
         public void callSelectIdFromRegistration() {
 
-            SqlCommand cmd = new SqlCommand();
+            SqlCommand cmd = new SqlCommand("SelectIdFromRegistration",conn);
                 
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.CommandText = "SelectIdFromRegistration";
@@ -72,7 +72,7 @@ namespace StudentRegistrationSystem
         public DataTable callSelectAllFromRegistration() {
 
             DataTable dtAllStudents = new DataTable();
-            SqlCommand cmd = new SqlCommand();
+            SqlCommand cmd = new SqlCommand("SelectAllFromRegistration",conn);
                 
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.CommandText="SelectAllFromRegistration";
